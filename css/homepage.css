@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: monospace,"Times New Roman", Times, serif;
+
+}
+
+.bg {
+    /* The image used */
+    background-image:url("../img/bg.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace,"Times New Roman", Times, serif;
+}
+   
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Position the navbar container inside the image */
+.container {
+    position: relative;
+    float:right;
+    margin: 20px;
+    width: auto;
+   
+  
+}
+
+/* The navbar */
+.topnav {
+    
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.7;
+}
+
+    /* Navbar links */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        
+        
+    }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+           
+        }
