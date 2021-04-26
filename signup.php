@@ -1,15 +1,30 @@
+<?php
+
+include "databaseConnect.php";
+include "submit_function.php";
+
+if(array_key_exists('submit',$_POST)){
+	submit();
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>Sign Up</title>
-
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="css/signUp.css " type="text/css"> 
 		
 	</head>
 <body>
+<div class = "centerForm">
 	<form action="" method = "POST" autocomplete="on">
+		<br>
 		<lable>Name : </lable>
 		<input type="text" name="firstName" placeholder="First Name" value="<?php echo htmlspecialchars($_POST['firstName'] ?? '', ENT_QUOTES); ?>">
 		<input type="text" name="lastName" placeholder="Last Name"value="<?php echo htmlspecialchars($_POST['lastName'] ?? '', ENT_QUOTES); ?>">
+		
 		<br><br>
 
 		Gender:
@@ -34,22 +49,15 @@
 		<input type="password" name="confirmPassword" >
 		<br><br>
 
-		<input type="submit" value="Signup " name="submit">
+		<input type="submit" value="Signup " name="submit" class = "but">
+		<p>
+		<a href = "signin.php">Already as account ?</a>
 	</form>
-
+</div>
 </body>
 </html>
 
-<?php
 
-include "databaseConnect.php";
-include "submit_function.php";
-
-if(array_key_exists('submit',$_POST)){
-	submit();
-}
-
-?>
 
 
 
