@@ -26,6 +26,7 @@ if(array_key_exists('submit',$_POST)){
 <body>
 
 	<div class = "centerForm">
+	<img src="img/sigin.png" width = "200px">
     <form action="" method="POST">
 	<label for="email">Email : </label>
 	<input type="email" name="email">
@@ -39,6 +40,7 @@ if(array_key_exists('submit',$_POST)){
 	<a href = "forgot.php">Forgot Passowrd?</a>	
 	</form>
 </div>
+
 
 
 </body>
