@@ -9,3 +9,5 @@ Login  Logout and Registration system creating using HTML CSS  PHP and MYSQL
 
 
 3 . All good, now open browser and in browser type localhost/(your floder name where you past the files).
+
+![Login Page](login.png)
