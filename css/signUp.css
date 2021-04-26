@@ -1,0 +1,27 @@
+body,html{
+   
+    font-family: monospace,"Times New Roman", Times, serif;
+    background-image: url("/img/bgSignin.jpg");
+    background-repeat: repeat-x;
+}
+
+.centerForm{
+    display:unset;
+}
+
+
+.but{
+    border-radius: 50px;
+  
+    background-color: greenyellow;
+    font-size: medium;
+ 
+}
+a{
+    color:black;
+    text-decoration-line:none ;
+   
+}
+a:hover{
+    color:yellowgreen;
+}

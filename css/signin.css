@@ -1,0 +1,38 @@
+body,html{
+   
+    font-family: monospace,"Times New Roman", Times, serif;
+    background-image: url("/img/bgSignin.jpg");
+    background-repeat: repeat-x;
+}
+
+.centerForm{
+  
+    left: 40%;
+    top: 40%;
+    width: 300px;
+    border: none;
+    padding: 50px;
+    margin: 20px;
+
+}
+label {
+    display: inline-block;
+    width:100px;
+    text-align: right;
+}
+
+.but{
+    border-radius: 50px;
+    background-color: greenyellow;
+    font-size: medium;
+    padding: 2%;
+    margin: 2%;
+}
+a{
+    color:black;
+    text-decoration-line:none ;
+   
+}
+a:hover{
+    color: red;
+}
